@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+
+        <button class="hamburger">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <div class="navigator">
+            <div class="navigation"><a href="#about">About me</a></div>
+            <div class="navigation"><a href="#portfolio">Portfolio</a></div>
+            <div class="navigation"><a href="#contacts">Contacts</a></div>
+        </div>
+
+    </nav>
+
+    <header>
+        <h1>Jane Doe, Front-end developer</h1>
+    </header>
+
+    <section id="about">
+        <div class="images">
+<!--            <img src="images/image.jpg" alt="Example keyboard">-->
+            <img src="images/person.jpg" alt="This is me">
+        </div>
+        <div class="text">
+            <h2>About me</h2>
+            <p>Hi, I'm Jane Doe. I've been junior front-end developer for 5 months now.</p>
+            <p>For me, programming is not just a job, it's a hobby.</p>
+            <p>I'm open to new knowledge, I like to study new technologies and apply them in practise.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="container">
+            <div>
+                <img src="images/project1.png" alt="My first project">
+                <p>Flashcards</p>
+
+                <button class="open-window" onclick="firstWindow()">Show me</button>
+
+                <div class="window" id="first">
+                    <h2>Flashcards</h2>
+                    <p>
+                        If you are a beginner web developer, you need to know the basics of CSS and HTML.
+                        This project is great for those who need somewhere to start. Your goal is to create
+                        a stylized page with flashcards, each containing a question on one side and the
+                        answer on the other. You can choose any subject you want for your flashcards
+                    </p>
+                    <button class="close-window" onclick="firstClose()">Close</button>
+                </div>
+
+            </div>
+            <div>
+                <img src="images/project2.png" alt="My second project">
+                <p>Virtual Piano</p>
+
+                <button class="open-window" onclick="secondWindow()">Show me</button>
+
+                <div class="window" id="second">
+                    <h2>Virtual Piano</h2>
+                    <p>
+                        One of the many things that a front-end developer has to take care of is binding
+                        the functionality of a web application to the keys on the keyboard. In order to develop
+                        and strengthen the important skills of working with keyboard keys, we will make a
+                        virtual piano in this project.
+                    </p>
+                    <button class="close-window" onclick="secondClose()">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>You can contact me at test@hyperskill.org</p>
+        <p>or phone number - 1234567890</p>
+        <div class="links">
+            <img src="images/github.svg" alt="Github">
+            <img src="images/facebook.svg" alt="Facebook">
+            <img src="images/twitter.svg" alt="Twitter">
+            <img src="images/instagram 1.svg" alt="Instagram">
+        </div>
+    </section>
+
+    <footer>
+        <h2>Jane Doe</h2>
+        <p>Created in 2021</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

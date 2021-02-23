@@ -1,0 +1,80 @@
+body {
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container {
+    width: 728px;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+kbd {
+    display: inline-block;
+    border: 2px solid grey;
+}
+
+.white-keys {
+
+}
+
+.black-keys {
+
+}
+
+.a, .s, .d, .f, .g, .h, .j {
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    z-index: 1;
+    background-color: white;
+}
+
+.w, .e, .t, .y, .u {
+    position: absolute;
+    width: 60px;
+    height: 300px;
+    z-index: 2;
+    background-color: black;
+    color: white;
+}
+
+.a {
+    left: 0;
+}
+.w {
+    left: 72px;
+}
+.s {
+    left: 104px;
+}
+.e {
+    left: 176px;
+}
+.d {
+    left: 208px;
+}
+.f {
+    left: 312px;
+}
+.t {
+    left: 384px;
+}
+.g {
+    left: 416px;
+}
+.y {
+    left: 488px;
+}
+.h {
+    left: 520px;
+}
+.u {
+    left: 592px;
+}
+.j {
+    left: 624px;
+}
